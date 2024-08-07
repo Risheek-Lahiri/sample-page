@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff8c00;
+    padding: 10px;
+    color: white;
+}
+
+.header-left img {
+    height: 50px;
+}
+
+.header-center {
+    text-align: center;
+}
+
+.header-right div {
+    text-align: right;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffa500;
+    color: white;
+    padding: 10px 0;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-panel {
+    width: 70%;
+}
+
+.right-panel {
+    width: 28%;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+}
+
+.announcement, .plant-performance, .compendium, .hindi-portal {
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    
+}
+
